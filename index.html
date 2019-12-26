@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>init Lab Kiosk</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div id="container">
+			<header>
+				<img src="img/logo.png" alt="init Lab">
+				<div id="clock">00:00:00</div>
+				<div id="lang">
+					<img src="img/uk.png">
+					<img src="img/bg.png">
+				</div>
+			</header>
+			<main>
+				<div class="widget">
+					<div class="title">Weather forecast</div>
+					<div class="content">
+						<ul>
+							<li>in 2h: 12°C, Sunny with clouds</li>
+							<li>in 8h: 9°C, Light rain</li>
+						</ul>
+					</div>
+				</div>
+				<div class="widget">
+					<div class="title">Who's in init Lab</div>
+					<div class="content">Everyone's gone</div>
+				</div>
+				<div class="widget">
+					<div class="title">Public transport</div>
+					<div class="content">
+						<ul>
+							<li>TM 4 - 12:14, 12:53, 13:23</li>
+							<li>TB 9 - 12:09, 12:29, 12:58</li>
+							<li>Metro - 12:06, 12:18, 12:38</li>
+						</ul>
+					</div>
+				</div>
+				<div class="widget widget-current-event">
+					<div class="title">Current event</div>
+					<div class="content">No event is taking place at the moment</div>
+				</div>
+				<div class="widget">
+					<div class="title">Environment sensors</div>
+					<div class="content">
+						<ul>
+							<li>Outside: T: 4.7°C / H: 91.0%</li>
+							<li>Lecture room: T: 12.6°C / H: 40.5% / P: 949.7hPa</li>
+							<li>Ruby room: T: 14.7°C / H: 46.0%</li>
+						</ul>
+					</div>
+				</div>
+				<div class="widget">
+					<div class="title">Upcoming events</div>
+					<div class="content">
+						<ul>
+							<li>Sunday Casual Tinkerday - 29/12/2019 - 14:00</li>
+							<li>Ден на отворените врати - 11/01/2020 - 14:00</li>
+							<li>Среща на УС - 20/01/2020 - 19:30</li>
+						</ul>
+					</div>
+				</div>
+			</main>
+			<footer>
+				<div>init Lab Kiosk v1.0</div>
+				<div>best viewed at 1024x768</div>
+				<div>source code available on github.com/initLab/kiosk</div>
+			</footer>
+		</div>
+		<script src="https://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>
